@@ -1,4 +1,62 @@
+/* shared design*/
+
+.inter-fname {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-htfname {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 65px;
+}
+.button-primary{
+background-color: #4E47FF;
+color: #FFFFFF;
+border-radius: 10px;
+border: none;
+width: 132px;
+height: 48px;
+font-size: 16px;
+}
+
+/*header design*/
+header{
+    background-image: url('images/Hero-bg.png');
+    max-width: 1440px;
+    height: 698px;
+}
 .logo-signup{
     display: flex;
     justify-content: space-between;
+    max-width: 1140px;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo-header{
+    color: #4E47FF;
+    font-size: 34px;
+    width: 99px;
+    height: 51px;
+}
+.header-title{
+    text-align:center;
+    max-width: 905px;
+    max-height: 237px;
+    color: #252432;
+    margin-left: 260.5px;
+    margin-right: 290.5px;
+    margin-top: 158px;
+    margin-bottom: 152px;
+}
+.header-text {
+    width: 800px;
+    height: 152px;
+}
+.second-button{
+    width: 174px;
 }
