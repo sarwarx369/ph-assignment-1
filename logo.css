@@ -60,3 +60,55 @@ header{
 .second-button{
     width: 174px;
 }
+
+main{
+  
+}
+/* action section design*/
+.action {
+    max-width: 1128px;
+    max-height: 320px;
+    background-color:#FFFFFF;
+    padding: 8px;
+    margin: 0 auto;
+    margin-top: 116px;
+    margin-left: 141px;
+    margin-right: 159px;
+}
+
+.action-container {
+    display: flex; /* নতুন যোগ */
+    align-items: center; /* vertically center */
+    justify-content: space-between; 
+      
+    
+}
+
+.action-text {
+    max-width: 500px; /* যাতে টেক্সট সাইডে থাকে */
+}
+
+.action-title {
+    font-size: 42px;
+    color: #252432;
+}
+
+.action-description {
+    color: #B3B3B3;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.action-button {
+    width: 229px;
+    height: 48px;
+    font-size: 16px;
+    margin-top: 23px;
+}
+
+.action-image {
+    width: 403px;
+    height: 328px;
+    object-fit: cover;
+    border-radius: 48px;
+}
