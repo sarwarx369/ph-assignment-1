@@ -61,9 +61,7 @@ header{
     width: 174px;
 }
 
-main{
-  
-}
+
 /* action section design*/
 .action {
     max-width: 1128px;
@@ -111,4 +109,41 @@ main{
     height: 328px;
     object-fit: cover;
     border-radius: 48px;
+}
+ /* productive users section design*/
+
+
+.productive-users{
+    max-width: 1050px;
+    max-height: 500px;
+    margin: 0 auto;
+    background-color: #D6DDED;
+    text-align: center;
+    border-radius: 24px;
+    margin-top: 142px;
+    
+}
+.pro-padding{
+    padding: 50px 142px;
+}
+.statistics{
+    display: flex;
+    justify-content: space-around;
+    gap: 158px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.pro-title {
+    font-size: 38px;
+    color: #8987A1;
+}
+.st-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.st-para{
+    font-size: 20px;
+    color: #000000;
+
 }
