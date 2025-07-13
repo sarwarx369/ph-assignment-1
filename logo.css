@@ -66,7 +66,7 @@ header{
 .action {
     max-width: 1128px;
     max-height: 320px;
-    background-color:#FFFFFF;
+    background-color:rgb(249, 246, 246);
     padding: 8px;
     margin: 0 auto;
     margin-top: 116px;
@@ -75,15 +75,15 @@ header{
 }
 
 .action-container {
-    display: flex; /* নতুন যোগ */
-    align-items: center; /* vertically center */
+    display: flex;
+    align-items: center;
     justify-content: space-between; 
       
     
 }
 
 .action-text {
-    max-width: 500px; /* যাতে টেক্সট সাইডে থাকে */
+    max-width: 500px;
 }
 
 .action-title {
@@ -117,7 +117,7 @@ header{
     max-width: 1050px;
     max-height: 500px;
     margin: 0 auto;
-    background-color: #D6DDED;
+    background-color: lch(93.42% 1.78 19.18);
     text-align: center;
     border-radius: 24px;
     margin-top: 142px;
@@ -146,4 +146,51 @@ header{
     font-size: 20px;
     color: #000000;
 
+}
+
+/* feedback section */
+.feedback{
+    max-width: 1140px;
+    max-height: 342px;
+    margin: 0 auto;
+    margin-top: 111px;
+    text-align: left;
+}
+
+.threefedcard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    max-width: 365px;
+    max-height: 243px;
+    background-color: #F2EDED;
+    border-radius: 14px;
+    padding: 24px 24px;
+}
+.review-footer{
+    display: flex;
+}
+.feedback-title{
+    font-size: 42px;
+    width: 1140px;
+    height: 49px;
+    text-align: center
+}
+.review-footer img {
+    border-radius: 9999px;
+}
+.rev-name{
+    color: #757575;
+    font-weight: bold;
+}
+.rev-date{
+    color: #B3B3B3;
+}
+.review-footer{
+    margin-top: 24px;
+}
+.name-date{
+    margin-left: 12px;
 }
