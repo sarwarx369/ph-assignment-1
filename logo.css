@@ -225,6 +225,7 @@ margin: 0 auto;
 gap: 15px;
 padding-top: 50px;
 margin-bottom: 90px;
+padding-right: 30px;
 }
 .get-in-button{
     width: 430px;
@@ -241,4 +242,38 @@ margin-bottom: 90px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 16px;
+}
+
+/* footer section*/
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.footer-description{
+    color: #736DB2;
+    
+    height: 49px;
+    text-align: center;
+}
+    .footer-nav{
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+    .footer-nav a {
+        text-decoration: none;
+        color: #373556;
+    }
+    .footer-nav a:hover{
+        text-decoration: underline;
+        color: #302ecf;
+    }
+
+    /* button animation */
+.button-primary:hover {
+    background-color: #48824f;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(78, 71, 255, 0.3);
 }
