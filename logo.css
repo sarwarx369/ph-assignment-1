@@ -194,3 +194,51 @@ header{
 .name-date{
     margin-left: 12px;
 }
+
+/* get in touch section design*/
+.get-in-touch{
+    max-width: 1140px;
+    max-height: 700px;
+    margin: 0 auto;
+}
+
+.abba-of-get-in-touch{
+    display: flex;
+    gap: 115px;
+    margin: 200px auto;
+    background-color: #e6e6ef;
+
+    
+} 
+.h-column{
+margin: 0 auto;
+
+}
+.h-column h1{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    
+}
+.input-column{
+margin: 0 auto;
+gap: 15px;
+padding-top: 50px;
+margin-bottom: 90px;
+}
+.get-in-button{
+    width: 430px;
+    height: 62px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.input-column input,
+.input-column textarea
+ {
+     width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
